@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produits Longrich</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    </script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 scroll-smooth">
+
+  <!-- Header -->
+<header class="fixed top-0 left-0 w-full bg-white shadow z-50">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    <!-- Logo + Nom -->
+
+    <div class="flex items-center space-x-2">
+      <img src="assets/Images/logo.jpg" alt="Logo Longrich" class="h-8 w-auto" />
+      <span class="text-xl font-bold text-gray-600">Better life, better future</span>
+    </div>
+
+      <!-- Menu mobile -->
+      <div class="md:hidden">
+        <button id="menu-toggle" class="text-green-700 focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+     <!--Menu desktop-->
+      <nav class="hidden md:flex space-x-6 text-sm font-semibold">
+        <a href="#accueil" class="hover:text-green-700">Accueil</a>
+        <a href="#produits" class="hover:text-green-700">Produits</a>
+        <a href="#rejoindre" class="hover:text-green-700">Rejoindre</a>
+        <a href="#temoignages" class="hover:text-green-700">Témoignages</a>
+        <a href="#contact" class="hover:text-green-700">Contact</a>
+      </nav>
+      <a href="#rejoindre" class="bg-green-600 text-white text-sm px-4 py-2 rounded-lg shadow hover:bg-green-700 transition">Rejoignez-nous</a>
+    </div>
+
+     <!-- Menu mobile (déroulant) -->
+     <div id="mobile-menu" class="hidden md:hidden bg-white px-4 pb-4">
+      <a href="#accueil" class="block py-2 text-sm hover:text-green-700">Accueil</a>
+      <a href="#produits" class="block py-2 text-sm hover:text-green-700">Produits</a>
+      <a href="#rejoindre" class="block py-2 text-sm hover:text-green-700">Rejoindre</a>
+      <a href="#temoignages" class="block py-2 text-sm hover:text-green-700">Témoignages</a>
+      <a href="#contact" class="block py-2 text-sm hover:text-green-700">Contact</a>
+    </div>
+  </header>
+
+<!-- Section Héros -->
+  <section id="accueil" class="pt-24 pb-16 bg-[url('assets/Images/fond1.jpg')] bg-cover bg-center text-white">
+    <div class="bg-black/50 w-full h-full py-20">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-6">Découvrez la puissance des produits Longrich</h1>
+        <p class="text-lg md:text-xl mb-8">Bien-être, santé et opportunité d'affaires réunis dans une seule gamme de produits.</p>
+        <a href="#produits" class="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition">Découvrir les produits</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section À propos -->
+  <section class="py-16 bg-gray-100" id="a-propos">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-green-700 mb-4">À propos de Longrich</h2>
+      <p class="text-lg text-gray-700">Longrich est une entreprise internationale spécialisée dans les produits de santé, d’hygiène, de beauté et de bien-être. En plus de sa large gamme, Longrich offre à chacun la possibilité de devenir distributeur indépendant. Creer en 1986, longrich est actuellement presente dans plus de 185 pays dans le monde entier, soit presente 4 continent sur 5.</p>
+    </div>
+  </section>
+
+   <!-- Section À propos du Leader Gabriel essomba -->
+   <section class="py-16 bg-gray-100" id="a-propos">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-green-700 mb-4">À propos du Leader Gabriel ESSOMBA</h2>
+      <p class="text-lg text-gray-700">Le leader Gabriel ESSOMBA est un distributeur et partenaire de la multinationale longrich. Il a rejoint longrich en octobre 2023 et y est demeurer jusqu'a nos jours resident a douala il travail strategiquement et est entrain de batir une equipe de longricheurs solide. Et si vous rejoigniez son equipe? </p>
+    </div>
+  </section>
+
+  <!-- Section Produits -->
+  <section id="produits" class="py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-green-700 mb-10">Nos Produits</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Répéter cette carte 20 fois avec différents contenus -->
+        <!-- Exemple d’un produit -->
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/Vin de sante.jpg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">vin de sante</h3>
+          <p class="text-sm text-gray-600 mt-2">Le vin de sante de longrich favorise le metabolisme,empeche l'accumulation de graisse, aide a reduire la graisse du ventre, contribue a diminuer le cholesterol defavorable.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/vitamine c.jpeg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Vitamine C </h3>
+          <p class="text-sm text-gray-600 mt-2">Elle favorise le renforcement du systeme immunitaire, formation du collagene, reduit la fatigue et protege les cellules contre le stress oxydatif.</p>
+        </div>
+        <!-- ... Répéter pour les autres produits -->
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/libao.jpeg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Libao</h3>
+          <p class="text-sm text-gray-600 mt-2"> specifiquement formule pour ameliorer la fertillite masculine.  augmente les performences sexuelles, ameliore la qualite et la quantite du sperme, renforce l'immunite et reduire la fatigue. recommande pour les hommes souffrants de deficience immunitaire et de fatigue chronique.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/atro.jpeg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Arthro</h3>
+          <p class="text-sm text-gray-600 mt-2">Concu pour soutenir la sante des articulations et reduire les symptomes de l'arthrose. Contenant la glucosamine et des polyphenols de the, et est repute pour ameliorer la mobilite, reduire la douleur et la raideur, et favoriser la regeneration du cartilage.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/cordyceps millitaris.jpeg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">cordyceps militaris</h3>
+          <p class="text-sm text-gray-600 mt-2"> Il est utiliser pour traiter la tuberculose, le staphylocoque, la gonorrhee, la syphillis. egalement utiliser pour abaisser la tension arterielle et la glycemie, il augmente la qualite et la production de sperme et la libido. efficace contre les tumeures cancereuse.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/cafe corddyceps.jpeg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Cafe corddyceps</h3>
+          <p class="text-sm text-gray-600 mt-2"> Il offre un regain d'energie sans les effets secondaires indesirables comme la nervosite. Il ameliore des performances physiques, lutte contre le cancer et la fatigue, tonifie les reins et les poumons, en ameliorant ainsi leurs fonctions.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/gobelet alcalin.jpeg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Gobelet alcalin</h3>
+          <p class="text-sm text-gray-600 mt-2"> Renforce le systeme humunitaire, purifie le sang, il regularise egalement le taux de glycemie dans le corps</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/snack oil.jpeg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Snack oil</h3>
+          <p class="text-sm text-gray-600 mt-2">Reduit et previent l'acne en favorisant une peau nette et sans imperfections. Aide a attenuer les vergetures, varices et cicatrices, y compris les cheloides, pour une peau plus uniforme et lumineuse.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/dentifrice.jpeg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Dentifrice Longrich</h3>
+          <p class="text-sm text-gray-600 mt-2">Resoud tout les problemes bucco-dentaires, protège les gencives et rafraîchit l'haleine.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/serviettes.jpeg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Serviettes hygienique longrich</h3>
+          <p class="text-sm text-gray-600 mt-2">composee de 8 couches de materiaux 100% coton. Elle traite les infections des voies urinaires, les regles douloureuses, previent et traite les demangeaisons pendant et apres les regles, elimine les odeurs, maintient le PH vaginal, previent le cancer du col de l'uterus/vaginal et favorise le metabolisme.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/savons noir.jpg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Savons noir</h3>
+          <p class="text-sm text-gray-600 mt-2">Formule a base de charbon de bambou et d'huile de noix de coc, recconus pour leurs proprites absorbantes et hydratantes. Il nettoie et purifie la peaux en profondeur.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/gamme bebe.jpeg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Gamme bebe</h3>
+          <p class="text-sm text-gray-600 mt-2">La gamme pour bebe de longrich offre des produits concus pour la peau delicate des enfants, avec des avantages specifiques telque l'hydratation, la protection et le soulagement des irritations cutanees.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/deodorant.jpeg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Deodorant</h3>
+          <p class="text-sm text-gray-600 mt-2">Il reduit les odeurs en neutralisant les bacteries ou les agents qui cause les odeurs sous les aisselles, limite la transpiration excessive.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/creame de main.jpeg " alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Creame de main</h3>
+          <p class="text-sm text-gray-600 mt-2">La creame de main longrich est un produit qui favorise l'adoucissement des mains, la reparation au niveau de la peau et elle aide aussi a combattre les vergetures.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/Anti-moustique.jpg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Anti-moustique</h3>
+          <p class="text-sm text-gray-600 mt-2">Protection contre les piqures pendant 8 heures apres application, Soulagement des demangeaisons.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/gel olive.jpg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Gel de douche</h3>
+          <p class="text-sm text-gray-600 mt-2">Permet un nettoyage doux:  il nettoie la peau sans l'agresser, en eliminant les impuretes tout en douceur, protection de la barriere cutanee.</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Produits composition -->
+  <section id="produits" class="py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-green-700 mb-10">Quelques compositions pour lutter contre certaines maladies</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/kit anti-mal gastrique.jpg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Kit Anti-mal Gastrique</h3>
+          <p class="text-sm text-gray-600 mt-2">Constituer du Gobelet alcalin + Barry oil, le mal gastrique declare forfait.</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/kit anti-vergetures.jpg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Kit Anti-Vergetures</h3>
+          <p class="text-sm text-gray-600 mt-2">constituer de la creame de main + lait SOD + Savons noirs, ce melange dessouche les vergetures.</p>
+        </div>
+       
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/kit anti-carrie dentaire.jpg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Kit Anti-Carrie dentaires</h3>
+          <p class="text-sm text-gray-600 mt-2">Constituer du dentifrice + le bain de bouche + le calcium, combat efficacement la carrie dentaire ainsi que d'autre problemes bucco-dentaires. </p>
+        </div>
+
+
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="assets/Images/kit anti-kinto.jpg" alt="Produit 1" class="w-full h-40 object-cover mb-4 rounded">
+          <h3 class="font-semibold text-lg">Kit Anti- Kintos</h3>
+          <p class="text-sm text-gray-600 mt-2">Constituer de la creame de main + le snack oile, ce melange lutte efficacement contre les kintos et repare efficacement la peau.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Rejoindre -->
+  <section id="rejoindre" class="py-16 bg-green-50">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-green-700 mb-6">Pourquoi devenir distributeur Longrich ?</h2>
+      <ul class="text-left max-w-xl mx-auto space-y-4 text-gray-700">
+        <li>✅ Revenu complémentaire</li>
+        <li>✅ Liberté de travailler à votre rythme</li>
+        <li>✅ Produits de qualité reconnus mondialement</li>
+        <li>✅ Accompagnement et formation offerts</li>
+      </ul>
+      <a href="#contact" class="mt-6 inline-block bg-green-600 text-white px-6 py-3 rounded shadow hover:bg-green-700 transition">Je veux rejoindre</a>
+    </div>
+  </section>
+
+  <!-- Section Témoignages -->
+  <section id="temoignages" class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-green-700 mb-10">Ils ont rejoint Longrich</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-gray-50 p-6 rounded shadow">
+          <p class="italic">"Depuis que j’ai rejoint Longrich, ma vie a changé. Je gagne un revenu stable tout en aidant les autres à découvrir des produits efficaces."</p>
+          <p class="mt-4 font-semibold text-green-700">— Amina, Yaoundé</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded shadow">
+          <p class="italic">"Les formations sont excellentes et je me sens soutenu dans mon activité. Merci Longrich !"</p>
+          <p class="mt-4 font-semibold text-green-700">— Didier, Douala</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact" class="py-16 bg-gray-100">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-green-700 mb-6">Contactez-nous</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Votre nom" class="w-full p-3 rounded border border-gray-300" required>
+        <input type="email" placeholder="Votre email" class="w-full p-3 rounded border border-gray-300" required>
+        <input type="tel" placeholder="Votre téléphone" class="w-full p-3 rounded border border-gray-300">
+        <textarea placeholder="Votre message" rows="4" class="w-full p-3 rounded border border-gray-300"></textarea>
+        <button type="submit" class="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700 transition w-full">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-85 py-6 mt-16">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+      <p class="text-sm text-gray-600">&copy; 2025 Longrich Cameroun. Tous droits réservés. Partenaire | GABRIEL ESSOMBA | Identifiant: CM09253683 |  By Prefet des etudes.</p>
+      <div class="flex space-x-4 mt-4 md:mt-0">
+        <a href="https://wa.me/237675919527" target="_blank" class="text-green-600 hover:text-green-800">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+            <path d="M20.52 3.48A11.73 11.73 0 0 0 12 0C5.37 0 0 5.37 0 12a11.94 11.94 0 0 0 1.68 6.06L0 24l6.3-1.62A11.94 11.94 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.18-1.24-6.17-3.48-8.52zM12 21.6a9.47 9.47 0 0 1-4.8-1.29l-.34-.2-3.72.96.99-3.63-.22-.37a9.53 9.53 0 0 1 1.27-11.52A9.49 9.49 0 0 1 12 2.4c5.27 0 9.6 4.32 9.6 9.6S17.27 21.6 12 21.6z"/>
+            <path d="M17.4 14.58c-.29-.14-1.71-.84-1.97-.93-.26-.1-.45-.14-.64.14-.19.29-.74.93-.91 1.12-.17.2-.34.22-.63.07-.29-.14-1.23-.45-2.35-1.44-.87-.77-1.46-1.7-1.64-1.99-.17-.29-.02-.44.13-.58.13-.13.29-.34.43-.5.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.5-.07-.14-.64-1.55-.88-2.12-.23-.55-.47-.47-.64-.47h-.55c-.19 0-.5.07-.76.36-.26.29-1 1-1 2.43s1.03 2.82 1.17 3.02c.14.19 2.02 3.07 4.9 4.31.69.3 1.22.48 1.64.61.69.22 1.32.19 1.81.12.55-.08 1.71-.7 1.95-1.37.24-.67.24-1.26.17-1.37-.07-.11-.26-.18-.55-.32z"/>
+          </svg>
+        </a>
+        <a href="https://facebook.com/tonprofil" target="_blank" class="text-blue-600 hover:text-blue-800">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+            <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.406.593 24 1.324 24h11.495v-9.294H9.691v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.658-4.788 1.325 0 2.463.099 2.795.143v3.24h-1.918c-1.504 0-1.796.715-1.796 1.763v2.314h3.591l-.467 3.622h-3.124V24h6.125C23.407 24 24 23.407 24 22.676V1.324C24 .593 23.407 0 22.676 0z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+      <!-- Espace pour mail et ville -->
+      <div class="mt-0 md:mt-7 text-sm text-gray-600">
+        <p>Email : <span class="font-semibold">gabrielessomba90@mail.com</span></p>
+        <p>Ville : <span class="font-semibold">Douala Cameroun</span></p>
+        <p>Tel: <span class="font-semibold">+237 (675919527) // +237 (699874540)</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Menu mobile toggle`
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
